@@ -1,0 +1,1 @@
+The purpose of this project was to try out and implement styled components, tilt and smooth scroll.
