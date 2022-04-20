@@ -9,7 +9,7 @@ const Hero = () => {
 		<HeroSection id="hero">
 			<Row justify="center" align="center" height="100%" padding="2rem">
 				<Column align="center" mb="10%">
-					<MainHeading>Every Creative Music</MainHeading>
+					<MainHeading>Music Is The Answer</MainHeading>
 					<TextWrapper
 						color="white"
 						size="clamp(1rem,3vw,1.3rem)"
