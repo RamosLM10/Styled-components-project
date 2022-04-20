@@ -15,12 +15,12 @@ import {
 	NavLinks,
 	NavBtnLink,
 } from './NavbarStyles';
-import { useNavigate } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 const Navbar = () => {
 	const [show, setShow] = useState(false);
 	const [background, setBackground] = useState(false);
-	let history = useNavigate();
+	let history = useHistory();
 
 	const closeMobileMenu = () => {
 		if (history.location.pathname !== '/') {

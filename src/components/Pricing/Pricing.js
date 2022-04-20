@@ -39,7 +39,7 @@ const Pricing = () => {
 							<Tilt
 								className="Tilt"
 								key={index}
-								options={{ max: 20, scale: 1.01, speed: 200 }}
+								options={{ max: 15, scale: 1.01, speed: 200 }}
 							>
 								<PricingCardInfo key={index}>
 									<PricingCardPlan>{card.title}</PricingCardPlan>

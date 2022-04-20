@@ -17,6 +17,7 @@ export const ContentColumn = styled(motion.div)`
 	flex: 1;
 	display: flex;
 	flex-direction: column;
+
 	@media screen and (max-width: 768px) {
 		max-width: 100% !important;
 		flex-basis: 100%;
@@ -38,6 +39,7 @@ export const BigColumn = styled(ContentColumn)`
 export const TextWrapper = styled.div`
 	max-width: 540px;
 	padding-top: 0;
+
 	@media screen and (max-width: 768px) {
 		padding-bottom: 65px;
 		> h1,
@@ -48,6 +50,7 @@ export const TextWrapper = styled.div`
 		flex-direction: column;
 		align-items: center;
 	}
+
 	> img {
 		width: 300px;
 		margin-left: -3px;
@@ -58,6 +61,7 @@ export const ImgWrapper = styled(motion.div)`
 	display: flex;
 	justify-content: ${({ imgStart }) => (imgStart ? 'flex-start' : 'flex-end')};
 	max-height: 600px;
+
 	@media screen and (max-width: 768px) {
 		display: none;
 	}
@@ -76,6 +80,7 @@ export const Box = styled.span`
 	padding: 10px;
 	border-radius: 50px;
 	color: black;
+
 	> span {
 		background: ${pink};
 		padding: 5px 15px;
@@ -101,6 +106,7 @@ export const Heading = styled(motion.h2)`
 	line-height: 1.1;
 	font-weight: 600;
 	color: ${({ inverse }) => (inverse ? '#f7f8fa' : '#1c2237')};
+
 	@media screen and (max-width: 768px) {
 		text-align: center;
 	}
